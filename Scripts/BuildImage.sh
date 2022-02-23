@@ -1,3 +1,3 @@
 #!/bin/sh -xe
 
-git clone git@github.hpe.com:hpe/lhat-platform-svalidate.git
+git clone https://github.hpe.com/hpe/lhat-platform-svalidate.git
