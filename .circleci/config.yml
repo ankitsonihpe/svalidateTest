@@ -18,7 +18,7 @@ jobs:
       # Use mvn clean and package as the standard maven build phase
       - run:
           name: Checkout common repo
-          command: ls;./BuildImage.sh
+          command: ls
       - run:
           name: Build
           command: mvn -B -DskipTests clean package
